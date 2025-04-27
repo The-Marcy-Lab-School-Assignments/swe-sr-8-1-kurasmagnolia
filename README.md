@@ -47,7 +47,7 @@ Response:
 
    The backend is the representative, who processes your request and heads into the back area of the post office. There, they access the P.O. boxes, which represent the database, where all the stored packages (data) live. The representative finds the right package based on your request, retrieves it from the database, and brings it back to the frontend—the lobby—where you receive your package.
 
-   Each layer works together behind the scenes to fulfill your request quickly and smoothly, just like in an app.
+   Each layer works together behind the scenes to fulfill your request quickly and smoothly, just like in an app. Separating the lobby, staff, and storage makes everything more organized and efficient—just like separating the frontend, backend, and database in an app.
 
 3. We separate concerns into different layers to stay organized and build systems more effectively. Each part—the frontend, backend, and database—has a clear role, making it easier to understand, maintain, and grow the application. Separation also allows flexibility and scalability as the app gets bigger. It helps with team collaboration too, making it easier for developers to understand the code, work independently, and avoid confusion when navigating different parts of the system.
 
