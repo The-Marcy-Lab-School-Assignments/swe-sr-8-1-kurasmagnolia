@@ -42,3 +42,9 @@ Response:
 1. When you upload a new post on Instagram, there’s a three-step process that takes place. You’re interacting with the frontend—the Instagram app you see—when you tap the “+” button to create a new post. That action sends a request to Instagram’s backend, which handles what kind of operation the user is trying to perform. In this case, it’s a Create request, following the CRUD model (Create, Read, Update, Delete). The backend then prepares a query to the database to save the new post and update your account with a reference to that post.
 
    Once the database stores the data, it sends a response back to the backend confirming the operation. The backend then sends this response to the frontend, updating the app so you can immediately see your new post appear. This same cycle happens in other actions too, like scrolling (Read), liking a post (Update), or deleting content (Delete).
+
+2. To understand how the three layers of an application—frontend, backend, and database—work together, think of it like a post office. The frontend is the part you see and interact with: the lobby, the counters, and the staff. You walk up to a representative and request a package from your P.O. box. This is like the frontend sending a request to the backend.
+
+   The backend is the representative, who processes your request and heads into the back area of the post office. There, they access the P.O. boxes, which represent the database, where all the stored packages (data) live. The representative finds the right package based on your request, retrieves it from the database, and brings it back to the frontend—the lobby—where you receive your package.
+
+   Each layer works together behind the scenes to fulfill your request quickly and smoothly, just like in an app.
